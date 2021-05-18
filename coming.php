@@ -23,7 +23,7 @@
             <div class="col-md-6" style="background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(img/coming.jpg) no-repeat; background-size: cover; height: 100vh;">
                 <div class="d-flex flex-column py-5 px-3 justify-content-center align-items-center text-white text-center">
                     <div class="text-normal mb-5">
-                        <h3><a style="text-decoration: none; color: #fff;" href="/"><?=$lang['kuzmenco']?></a></h3>
+                        <h3><a style="text-decoration: none; color: #fff;" href="/"><?=$lang['vamalevany']?></a></h3>
                     </div>
                     <div class="text-normal mb-5">
                         <h1><?=$lang['coming']?></h1>
@@ -35,7 +35,7 @@
                             <!-- https://www.youtube.com/channel/UCP3fJuJddTL13flFMk7SbVQ -->
                         <a href="https://www.linkedin.com/in/malevany" title="<?=$lang['connect']?>" target="_blank"><i class="fab fa-linkedin h3 text-white"></i></a>
                         <a href="coming.html" title="<?=$lang['subscribe']?>" target="_blank"><i class="fab fa-youtube h3 mr-5 ml-5 text-white"></i></a>
-                        <a href="https://github.com/vamalevany/react-movie.git" title="<?=$lang['code']?>" target="_blank"><i class="fab fa-github-square h3 text-white"></i></a>
+                        <a href="https://github.com/vamalevany/vamalevany.top" title="<?=$lang['code']?>" target="_blank"><i class="fab fa-github-square h3 text-white"></i></a>
                     </div>
                 </div>
             </div>
