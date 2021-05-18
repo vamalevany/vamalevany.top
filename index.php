@@ -84,7 +84,7 @@
                     <a href="https://www.linkedin.com/in/malevany" title="<?=$lang['connect']?>" target="_blank"><i class="fab fa-linkedin"></i></a>
                       <!-- https://www.youtube.com/channel/UCP3fJuJddTL13flFMk7SbVQ -->
                   <a href="coming.php" title="<?=$lang['subscribe']?>" target="_blank"><i class="fab fa-youtube"></i></a>
-                  <a href="https://github.com/vamalevany/react-movie.git" title="<?=$lang['code']?>" target="_blank"><i class="fab fa-github-square"></i></a>
+                  <a href="https://github.com/vamalevany/vamalevany.top" title="<?=$lang['code']?>" target="_blank"><i class="fab fa-github-square"></i></a>
               </div>
           </div>
       </div>
