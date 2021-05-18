@@ -1,0 +1,184 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&display=swap');
+
+body{
+    max-height: 100vh;
+    background-image:url('../img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    /*background-blend-mode: multiply;*/
+    font-family: 'Cormorant Infant', serif;
+    font-size: 1.5em;
+    transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    overflow-y: hidden;
+}
+
+.container{
+    opacity: 0.25;
+    transition: all 2s ease;
+    padding-top: 10vh;
+}
+
+.container-fluid{
+    opacity: 0.25;
+}
+
+.container:hover, .container-fluid:hover{
+    opacity: 1;
+}
+
+#about{
+    height: auto;
+}
+
+#about img{
+    height: 35vh;
+    width: auto; /*ie8*/
+    border-radius: 5%;
+    margin-bottom: 5%;
+    animation: moveLeft 0.6s ease-in forwards;
+}
+
+#about p{
+    animation: moveRight 0.6s ease-in forwards;
+}
+
+#contact{
+    animation: moveup 0.6s ease-in forwards;
+}
+
+textarea{
+    margin-bottom: 2%;
+    width: 60vw;
+    resize: none;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 2%;
+}
+
+button{
+    border-radius: 5%;
+}
+
+button:hover{
+    transform: translateY(-1vh);
+    background-color: red;
+    transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+
+textarea, input, button{
+    border-radius: 20%;
+    text-align: center;
+}
+
+footer .row{
+    height: 5vh;
+    position: relative;
+}
+
+footer i{
+    padding-right: 0.7em;
+    color: #fff;
+    transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+
+footer i:hover{
+    transform: translateY(-1vh);
+    color: red;
+    transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+
+#copy{
+    font-size: 0.8em;
+}
+
+#menu{
+    font-size: 0.8em;
+    margin-left: -5%;
+}
+
+.menu > li {
+    display: inline-block;
+    position: relative;
+}
+
+.lang {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+}
+
+.sublang {
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+    top: auto;
+    bottom: 20px;
+    transform: scale(.8);
+    right: 0;
+}
+
+.lang:hover .sublang {
+    visibility: visible;
+}
+
+@media (max-width: 767px) {
+    .row {
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+    #menu {
+        margin: 20px 0 20px -10%;
+    }
+
+    #social {
+        margin-top: 60px;
+    }
+}
+
+@keyframes moveLeft {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes moveRight {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes moveup {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}

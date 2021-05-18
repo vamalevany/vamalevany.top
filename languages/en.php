@@ -1,0 +1,26 @@
+<?php
+    $lang = array(
+        "hi_am_i_1" => "Hello there!",
+        "hi_am_i_2" => "I'm Valentyn, a web developer from Ukraine.",
+        "hi_am_i_3" => "Hi create usable, responsive sites with intuitive interfaces, and applications for them.",
+        "hi_am_i_4" => "y web applications are designed to automate small and medium businesses to drive sales, and boost profit.",
+        "msg" => "Your message...",
+        "email" => "Email",
+        "send" => "Send",
+        "copy" => "Copyright",
+        "vamalevany" => "Malevanny",
+        "assistent" => "Assistent",
+        "portfolio" => "Portfolio",
+        "blog" => "Blog",
+        "connect" => "Let's connect",
+        "subscribe" => "Subscribe",
+        "follow" => "Follow me",
+        "coming" => "Coming soon...",
+        "constract" => "My website is currently under construction.",
+        "notify" => "Notify me!",
+        "know" => "Let me know when your website comes to life.",
+        "here" => "Here is my",
+        "en" => "en",
+        "ru" => "ru",
+        "uk" => "uk"
+    );
