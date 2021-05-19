@@ -32,9 +32,8 @@
                         <h6><?=$lang['construct']?></h6>
                     </div>
                     <div id="social">
-                            <!-- https://www.youtube.com/channel/UCP3fJuJddTL13flFMk7SbVQ -->
                         <a href="https://www.linkedin.com/in/malevany" title="<?=$lang['connect']?>" target="_blank"><i class="fab fa-linkedin h3 text-white"></i></a>
-                        <a href="coming.html" title="<?=$lang['subscribe']?>" target="_blank"><i class="fab fa-youtube h3 mr-5 ml-5 text-white"></i></a>
+                        <a href="https://www.youtube.com/channel/UCUy8fgKRMWMmx5LkGRZc-AQ" title="<?=$lang['subscribe']?>" target="_blank"><i class="fab fa-youtube h3 mr-5 ml-5 text-white"></i></a>
                         <a href="https://github.com/vamalevany/vamalevany.top" title="<?=$lang['code']?>" target="_blank"><i class="fab fa-github-square h3 text-white"></i></a>
                     </div>
                 </div>
